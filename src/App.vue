@@ -20,10 +20,11 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 .router-link-exact-active{
   color: #42b983;
 }
-*{
+*{  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,7 +33,8 @@ export default {
   background: transparent(#42b883,0.5);
 }
 body{
-  background-color: #35495E;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
 }
 header .home{
   text-decoration: none;
@@ -42,7 +44,7 @@ header{
   align-items: center;
   justify-content: center;
   padding: 10px 16px;
-  background-color: #2c304e;
+  background-color: #222222;
   box-shadow: 0px 0px 6px rgba(0, 0, 0.1);
 }
 h1{
