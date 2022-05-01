@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-5 mb-5">
                 <div class="card">
-                    <img :src="`${movie.Poster}`" alt="movie">
+                    <img :src="`${movie.Poster !== 'N/A' ? movie.Poster:'https://via.placeholder.com/800' }`" alt="movie">
                 </div>
             </div>
             <div class="col-md-7 mb-5">

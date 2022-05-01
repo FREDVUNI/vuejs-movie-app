@@ -27,9 +27,9 @@
         <div class="row">
             <div class="col-md-3 mb-5" v-for="movie in movies" :key="movie.imdbID">
                 <div class="card h-100 text-white bg-darks">
-                    <img class="card-img-top" :src="`${movie.Poster}`" alt="movie">
+                    <img class="card-img-top" :src="`${movie.Poster !== 'N/A' ? movie.Poster:'https://via.placeholder.com/800' }`" alt="movie">
                     <div class="card-body">
-                    <h5 class="card-title">{{ movie.Title }}</h5>   
+                    <h5 class="card-title">{{ movie.Title }}</h5>  
                     <p class="card-text"><b>Year:</b> {{ movie.Year }}</p>
                     <router-link :to="`/movie/${movie.imdbID}`" class="btn btn-outline-light btn-sm">more details</router-link>
                     </div>
