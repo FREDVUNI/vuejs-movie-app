@@ -43,7 +43,7 @@
 
 <script>
 import axios from "axios"
-import PageLoader from "../components/PageLoader"
+// import PageLoader from "../components/PageLoader"
 export default {
   name: 'Home',
   data(){
@@ -53,7 +53,7 @@ export default {
       }
   },
   components: {
-    PageLoader,
+    // PageLoader,
   },
   methods:{
       submitForm(){
