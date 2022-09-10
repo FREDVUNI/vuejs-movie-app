@@ -25,7 +25,7 @@
         </div>
       <div class="container">
         <div class="row">
-        <PageLoader/> 
+        <!-- <PageLoader/>  -->
             <div class="col-md-3 mb-5" v-for="movie in movies" :key="movie.imdbID">
                 <div class="card h-100 text-white bg-darks">
                     <img class="card-img-top" :src="`${movie.Poster !== 'N/A' ? movie.Poster:'https://via.placeholder.com/800' }`" alt="movie">
