@@ -1,24 +1,5 @@
-# twitter-tutorial
+## vue js movie app
+A vue js movie app that searches for movies from the omdbapi
 
-## Project setup
-```
-npm install
-```
+![image](https://user-images.githubusercontent.com/41730664/212621931-5fad5aa1-2378-4281-89d2-bf5f03327851.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
