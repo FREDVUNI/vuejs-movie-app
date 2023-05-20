@@ -1,6 +1,6 @@
 # Vue Movie Search App
 
-This is a Vue app that allows users to search for movies using the OMDB API.
+This is a Vue app that allows users to search for movies using the OMDB API. You can also view movie details from searched movies. 
 
 ## Installation
 
